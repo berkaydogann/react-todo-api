@@ -7,6 +7,7 @@ const TodosList = ({
   setTodos,
   setEditToDo,
   setInput,
+  request,
   setRequest,
 }) => {
   const handleDelete = async (todo) => {
