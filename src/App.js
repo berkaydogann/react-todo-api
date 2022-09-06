@@ -56,11 +56,16 @@ const App = () => {
           </div>
           <div>
             <TodosList
+              input={input}
+              setInput={setInput}
               todos={todos}
               setTodos={setTodos}
               editTodo={editTodo}
               setEditToDo={setEditToDo}
-              setInput={setInput}
+              userName={userName}
+              setUserName={setUserName}
+              request={request}
+              setRequest={setRequest}
             />
           </div>
         </div>
